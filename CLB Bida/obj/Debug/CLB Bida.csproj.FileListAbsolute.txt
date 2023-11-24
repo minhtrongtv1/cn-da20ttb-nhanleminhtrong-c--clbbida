@@ -1,0 +1,69 @@
+D:\Đồ án chuyên ngành\CLB Bida\CLB Bida\bin\Debug\CLB Bida.exe.config
+D:\Đồ án chuyên ngành\CLB Bida\CLB Bida\bin\Debug\CLB Bida.exe
+D:\Đồ án chuyên ngành\CLB Bida\CLB Bida\bin\Debug\CLB Bida.pdb
+D:\Đồ án chuyên ngành\CLB Bida\CLB Bida\obj\Debug\CLB Bida.csproj.AssemblyReference.cache
+D:\Đồ án chuyên ngành\CLB Bida\CLB Bida\obj\Debug\CLB Bida.csproj.SuggestedBindingRedirects.cache
+D:\Đồ án chuyên ngành\CLB Bida\CLB Bida\obj\Debug\CLB_Bida.frmDangnhap.resources
+D:\Đồ án chuyên ngành\CLB Bida\CLB Bida\obj\Debug\CLB_Bida.Properties.Resources.resources
+D:\Đồ án chuyên ngành\CLB Bida\CLB Bida\obj\Debug\CLB Bida.csproj.GenerateResource.cache
+D:\Đồ án chuyên ngành\CLB Bida\CLB Bida\obj\Debug\CLB Bida.csproj.CoreCompileInputs.cache
+D:\Đồ án chuyên ngành\CLB Bida\CLB Bida\obj\Debug\CLB Bida.exe
+D:\Đồ án chuyên ngành\CLB Bida\CLB Bida\obj\Debug\CLB Bida.pdb
+D:\Đồ án chuyên ngành\CLB Bida\CLB Bida\obj\Debug\CLB_Bida.frmTrangchu.resources
+D:\CLB Bida\CLB Bida\bin\Debug\CLB Bida.exe.config
+D:\CLB Bida\CLB Bida\bin\Debug\CLB Bida.exe
+D:\CLB Bida\CLB Bida\bin\Debug\CLB Bida.pdb
+D:\CLB Bida\CLB Bida\obj\Debug\CLB_Bida.frmDangnhap.resources
+D:\CLB Bida\CLB Bida\obj\Debug\CLB_Bida.frmTrangchu.resources
+D:\CLB Bida\CLB Bida\obj\Debug\CLB_Bida.Properties.Resources.resources
+D:\CLB Bida\CLB Bida\obj\Debug\CLB Bida.csproj.GenerateResource.cache
+D:\CLB Bida\CLB Bida\obj\Debug\CLB Bida.csproj.CoreCompileInputs.cache
+D:\CLB Bida\CLB Bida\obj\Debug\CLB Bida.exe
+D:\CLB Bida\CLB Bida\obj\Debug\CLB Bida.pdb
+D:\CLB Bida\CLB Bida\bin\Debug\EntityFramework.dll
+D:\CLB Bida\CLB Bida\bin\Debug\EntityFramework.SqlServer.dll
+D:\CLB Bida\CLB Bida\bin\Debug\EntityFramework.xml
+D:\CLB Bida\CLB Bida\bin\Debug\EntityFramework.SqlServer.xml
+D:\CLB Bida\CLB Bida\obj\Debug\CLB Bida.csproj.CopyComplete
+D:\CLB Bida\CLB Bida\obj\Debug\CLB_Bida.frmbanbida.resources
+D:\CLB Bida\CLB Bida\obj\Debug\CLB_Bida.frmCreateBilliardRecord.resources
+D:\CLB Bida\CLB Bida\obj\Debug\CLB_Bida.Views.frmOrderDetail.resources
+D:\CLB Bida\CLB Bida\obj\Debug\CLB_Bida.Views.frmTable.resources
+D:\CLB Bida\CLB Bida\obj\Debug\CLB_Bida.Views.frmStatistical.resources
+D:\CLB Bida\CLB Bida\obj\Debug\CLB_Bida.Views.frmProduct.resources
+D:\CLB Bida\CLB Bida\obj\Debug\CLB Bida.csproj.AssemblyReference.cache
+D:\CLB Bida\CLB Bida\obj\Debug\CLB_Bida.Views.frmOutsideOrder.resources
+D:\CLB Bida\CLB Bida\bin\Debug\Resources\Template\Bill_Bida_Template.xlsx
+D:\CLB Bida\CLB Bida\bin\Debug\EPPlus.dll
+D:\CLB Bida\CLB Bida\bin\Debug\EPPlus.Interfaces.dll
+D:\CLB Bida\CLB Bida\bin\Debug\EPPlus.System.Drawing.dll
+D:\CLB Bida\CLB Bida\bin\Debug\EPPlus.xml
+D:\ĐA Chuyên Ngành\bida\CLB Bida\bin\Debug\Resources\Template\Bill_Bida_Template.xlsx
+D:\ĐA Chuyên Ngành\bida\CLB Bida\bin\Debug\CLB Bida.exe.config
+D:\ĐA Chuyên Ngành\bida\CLB Bida\bin\Debug\CLB Bida.exe
+D:\ĐA Chuyên Ngành\bida\CLB Bida\bin\Debug\CLB Bida.pdb
+D:\ĐA Chuyên Ngành\bida\CLB Bida\bin\Debug\EntityFramework.dll
+D:\ĐA Chuyên Ngành\bida\CLB Bida\bin\Debug\EntityFramework.SqlServer.dll
+D:\ĐA Chuyên Ngành\bida\CLB Bida\bin\Debug\EPPlus.dll
+D:\ĐA Chuyên Ngành\bida\CLB Bida\bin\Debug\EPPlus.Interfaces.dll
+D:\ĐA Chuyên Ngành\bida\CLB Bida\bin\Debug\EPPlus.System.Drawing.dll
+D:\ĐA Chuyên Ngành\bida\CLB Bida\bin\Debug\EntityFramework.xml
+D:\ĐA Chuyên Ngành\bida\CLB Bida\bin\Debug\EntityFramework.SqlServer.xml
+D:\ĐA Chuyên Ngành\bida\CLB Bida\bin\Debug\EPPlus.xml
+D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB Bida.csproj.AssemblyReference.cache
+D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB Bida.csproj.SuggestedBindingRedirects.cache
+D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB_Bida.frmbanbida.resources
+D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB_Bida.frmDangnhap.resources
+D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB_Bida.frmTrangchu.resources
+D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB_Bida.Properties.Resources.resources
+D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB_Bida.frmCreateBilliardRecord.resources
+D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB_Bida.Views.frmOutsideOrder.resources
+D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB_Bida.Views.frmProduct.resources
+D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB_Bida.Views.frmStatistical.resources
+D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB_Bida.Views.frmTable.resources
+D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB_Bida.Views.frmOrderDetail.resources
+D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB Bida.csproj.GenerateResource.cache
+D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB Bida.csproj.CoreCompileInputs.cache
+D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB Bida.csproj.CopyComplete
+D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB Bida.exe
+D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB Bida.pdb
