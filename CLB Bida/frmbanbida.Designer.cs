@@ -44,17 +44,19 @@
             this.groupBox1.Controls.Add(this.btnBatDau);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(800, 68);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(1067, 84);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Action";
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Location = new System.Drawing.Point(253, 26);
+            this.btnRefresh.Location = new System.Drawing.Point(337, 32);
+            this.btnRefresh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(75, 23);
+            this.btnRefresh.Size = new System.Drawing.Size(100, 28);
             this.btnRefresh.TabIndex = 3;
             this.btnRefresh.Text = "Làm mới";
             this.btnRefresh.UseVisualStyleBackColor = true;
@@ -62,9 +64,10 @@
             // 
             // btnKetThuc
             // 
-            this.btnKetThuc.Location = new System.Drawing.Point(140, 26);
+            this.btnKetThuc.Location = new System.Drawing.Point(187, 32);
+            this.btnKetThuc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnKetThuc.Name = "btnKetThuc";
-            this.btnKetThuc.Size = new System.Drawing.Size(107, 23);
+            this.btnKetThuc.Size = new System.Drawing.Size(143, 28);
             this.btnKetThuc.TabIndex = 2;
             this.btnKetThuc.Text = "Kết thúc tính giờ";
             this.btnKetThuc.UseVisualStyleBackColor = true;
@@ -72,9 +75,10 @@
             // 
             // btnBatDau
             // 
-            this.btnBatDau.Location = new System.Drawing.Point(27, 26);
+            this.btnBatDau.Location = new System.Drawing.Point(36, 32);
+            this.btnBatDau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBatDau.Name = "btnBatDau";
-            this.btnBatDau.Size = new System.Drawing.Size(107, 23);
+            this.btnBatDau.Size = new System.Drawing.Size(143, 28);
             this.btnBatDau.TabIndex = 0;
             this.btnBatDau.Text = "Bắt đầu tính giờ";
             this.btnBatDau.UseVisualStyleBackColor = true;
@@ -84,21 +88,24 @@
             // 
             this.dgvData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvData.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvData.Location = new System.Drawing.Point(0, 68);
+            this.dgvData.Location = new System.Drawing.Point(0, 84);
+            this.dgvData.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvData.MultiSelect = false;
             this.dgvData.Name = "dgvData";
             this.dgvData.ReadOnly = true;
-            this.dgvData.Size = new System.Drawing.Size(800, 382);
+            this.dgvData.RowHeadersWidth = 51;
+            this.dgvData.Size = new System.Drawing.Size(1067, 470);
             this.dgvData.TabIndex = 1;
             this.dgvData.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvData_CellDoubleClick);
             // 
             // frmbanbida
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.dgvData);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmbanbida";
             this.Text = "Bida";
             this.Load += new System.EventHandler(this.frmbanbida_Load);

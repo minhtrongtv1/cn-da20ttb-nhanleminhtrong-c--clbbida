@@ -33,13 +33,13 @@ namespace CLB_Bida.Views
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnshow = new System.Windows.Forms.Button();
             this.btnView = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.dtTo = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.dtFrom = new System.Windows.Forms.DateTimePicker();
             this.dgvData = new System.Windows.Forms.DataGridView();
-            this.btnshow = new System.Windows.Forms.Button();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).BeginInit();
@@ -62,7 +62,16 @@ namespace CLB_Bida.Views
             this.groupBox1.Size = new System.Drawing.Size(1067, 123);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Filter";
+            // 
+            // btnshow
+            // 
+            this.btnshow.Location = new System.Drawing.Point(466, 41);
+            this.btnshow.Name = "btnshow";
+            this.btnshow.Size = new System.Drawing.Size(106, 39);
+            this.btnshow.TabIndex = 5;
+            this.btnshow.Text = "Show";
+            this.btnshow.UseVisualStyleBackColor = true;
+            this.btnshow.Click += new System.EventHandler(this.btnshow_Click);
             // 
             // btnView
             // 
@@ -128,16 +137,6 @@ namespace CLB_Bida.Views
             this.dgvData.RowHeadersWidth = 51;
             this.dgvData.Size = new System.Drawing.Size(572, 431);
             this.dgvData.TabIndex = 1;
-            // 
-            // btnshow
-            // 
-            this.btnshow.Location = new System.Drawing.Point(466, 41);
-            this.btnshow.Name = "btnshow";
-            this.btnshow.Size = new System.Drawing.Size(106, 39);
-            this.btnshow.TabIndex = 5;
-            this.btnshow.Text = "Show";
-            this.btnshow.UseVisualStyleBackColor = true;
-            this.btnshow.Click += new System.EventHandler(this.btnshow_Click);
             // 
             // chart1
             // 

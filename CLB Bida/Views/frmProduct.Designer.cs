@@ -46,9 +46,11 @@ namespace CLB_Bida.Views
             // 
             this.dgvData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvData.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvData.Location = new System.Drawing.Point(0, 116);
+            this.dgvData.Location = new System.Drawing.Point(0, 143);
+            this.dgvData.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvData.Name = "dgvData";
-            this.dgvData.Size = new System.Drawing.Size(800, 334);
+            this.dgvData.RowHeadersWidth = 51;
+            this.dgvData.Size = new System.Drawing.Size(1067, 411);
             this.dgvData.TabIndex = 3;
             this.dgvData.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvData_CellEndEdit);
             this.dgvData.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dgvData_KeyDown);
@@ -64,66 +66,74 @@ namespace CLB_Bida.Views
             this.groupBox1.Controls.Add(this.btnAdd);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(800, 116);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(1067, 143);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Action";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(76, 15);
+            this.label3.Location = new System.Drawing.Point(101, 18);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 13);
+            this.label3.Size = new System.Drawing.Size(70, 16);
             this.label3.TabIndex = 5;
             this.label3.Text = "Phân Loại:";
             // 
             // cbProductCategory
             // 
             this.cbProductCategory.FormattingEnabled = true;
-            this.cbProductCategory.Location = new System.Drawing.Point(143, 12);
+            this.cbProductCategory.Location = new System.Drawing.Point(191, 15);
+            this.cbProductCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbProductCategory.Name = "cbProductCategory";
-            this.cbProductCategory.Size = new System.Drawing.Size(144, 21);
+            this.cbProductCategory.Size = new System.Drawing.Size(191, 24);
             this.cbProductCategory.TabIndex = 4;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(76, 67);
+            this.label2.Location = new System.Drawing.Point(101, 82);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 13);
+            this.label2.Size = new System.Drawing.Size(58, 16);
             this.label2.TabIndex = 4;
             this.label2.Text = "Đơn Giá:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(76, 41);
+            this.label1.Location = new System.Drawing.Point(101, 50);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
+            this.label1.Size = new System.Drawing.Size(55, 16);
             this.label1.TabIndex = 3;
             this.label1.Text = "Tên SP:";
             // 
             // txtUnitPrice
             // 
-            this.txtUnitPrice.Location = new System.Drawing.Point(143, 64);
+            this.txtUnitPrice.Location = new System.Drawing.Point(191, 79);
+            this.txtUnitPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUnitPrice.Name = "txtUnitPrice";
-            this.txtUnitPrice.Size = new System.Drawing.Size(144, 20);
+            this.txtUnitPrice.Size = new System.Drawing.Size(191, 22);
             this.txtUnitPrice.TabIndex = 2;
             // 
             // txtProductName
             // 
-            this.txtProductName.Location = new System.Drawing.Point(143, 38);
+            this.txtProductName.Location = new System.Drawing.Point(191, 47);
+            this.txtProductName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtProductName.Name = "txtProductName";
-            this.txtProductName.Size = new System.Drawing.Size(144, 20);
+            this.txtProductName.Size = new System.Drawing.Size(191, 22);
             this.txtProductName.TabIndex = 1;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(324, 48);
+            this.btnAdd.Location = new System.Drawing.Point(432, 59);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.Size = new System.Drawing.Size(100, 28);
             this.btnAdd.TabIndex = 0;
             this.btnAdd.Text = "Thêm";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -131,11 +141,12 @@ namespace CLB_Bida.Views
             // 
             // frmProduct
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.dgvData);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmProduct";
             this.Text = "Sản Phẩm";
             this.Load += new System.EventHandler(this.frmProduct_Load);

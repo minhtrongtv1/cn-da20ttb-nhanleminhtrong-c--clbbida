@@ -67,3 +67,32 @@ D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB Bida.csproj.CoreCompileInputs.
 D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB Bida.csproj.CopyComplete
 D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB Bida.exe
 D:\ĐA Chuyên Ngành\bida\CLB Bida\obj\Debug\CLB Bida.pdb
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\bin\Debug\Resources\Template\Bill_Bida_Template.xlsx
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\bin\Debug\CLB Bida.exe.config
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\bin\Debug\CLB Bida.exe
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\bin\Debug\CLB Bida.pdb
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\bin\Debug\EntityFramework.dll
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\bin\Debug\EntityFramework.SqlServer.dll
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\bin\Debug\EPPlus.dll
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\bin\Debug\EPPlus.Interfaces.dll
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\bin\Debug\EPPlus.System.Drawing.dll
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\bin\Debug\EntityFramework.xml
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\bin\Debug\EntityFramework.SqlServer.xml
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\bin\Debug\EPPlus.xml
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\obj\Debug\CLB Bida.csproj.AssemblyReference.cache
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\obj\Debug\CLB Bida.csproj.SuggestedBindingRedirects.cache
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\obj\Debug\CLB_Bida.frmbanbida.resources
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\obj\Debug\CLB_Bida.frmDangnhap.resources
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\obj\Debug\CLB_Bida.frmTrangchu.resources
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\obj\Debug\CLB_Bida.Properties.Resources.resources
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\obj\Debug\CLB_Bida.frmCreateBilliardRecord.resources
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\obj\Debug\CLB_Bida.Views.frmOutsideOrder.resources
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\obj\Debug\CLB_Bida.Views.frmProduct.resources
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\obj\Debug\CLB_Bida.Views.frmStatistical.resources
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\obj\Debug\CLB_Bida.Views.frmTable.resources
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\obj\Debug\CLB_Bida.Views.frmOrderDetail.resources
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\obj\Debug\CLB Bida.csproj.GenerateResource.cache
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\obj\Debug\CLB Bida.csproj.CoreCompileInputs.cache
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\obj\Debug\CLB Bida.csproj.CopyComplete
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\obj\Debug\CLB Bida.exe
+D:\cn-da20ttb-nhanleminhtrong-c--clbbida\src\CLB Bida\obj\Debug\CLB Bida.pdb

@@ -49,50 +49,56 @@ namespace CLB_Bida.Views
             this.groupBox1.Controls.Add(this.btnAdd);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(800, 90);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(1067, 111);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Action";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(75, 48);
+            this.label2.Location = new System.Drawing.Point(100, 59);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 13);
+            this.label2.Size = new System.Drawing.Size(75, 16);
             this.label2.TabIndex = 4;
             this.label2.Text = "Đơn Giá/ H:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(75, 22);
+            this.label1.Location = new System.Drawing.Point(100, 27);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 13);
+            this.label1.Size = new System.Drawing.Size(61, 16);
             this.label1.TabIndex = 3;
             this.label1.Text = "Tên Bàn:";
             // 
             // txtUnitPrice
             // 
-            this.txtUnitPrice.Location = new System.Drawing.Point(147, 45);
+            this.txtUnitPrice.Location = new System.Drawing.Point(196, 55);
+            this.txtUnitPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUnitPrice.Name = "txtUnitPrice";
-            this.txtUnitPrice.Size = new System.Drawing.Size(144, 20);
+            this.txtUnitPrice.Size = new System.Drawing.Size(191, 22);
             this.txtUnitPrice.TabIndex = 2;
             this.txtUnitPrice.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtUnitPrice_KeyDown);
             // 
             // txtTableName
             // 
-            this.txtTableName.Location = new System.Drawing.Point(147, 19);
+            this.txtTableName.Location = new System.Drawing.Point(196, 23);
+            this.txtTableName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTableName.Name = "txtTableName";
-            this.txtTableName.Size = new System.Drawing.Size(144, 20);
+            this.txtTableName.Size = new System.Drawing.Size(191, 22);
             this.txtTableName.TabIndex = 1;
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(323, 29);
+            this.btnAdd.Location = new System.Drawing.Point(431, 36);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.Size = new System.Drawing.Size(100, 28);
             this.btnAdd.TabIndex = 0;
             this.btnAdd.Text = "Thêm";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -102,9 +108,11 @@ namespace CLB_Bida.Views
             // 
             this.dgvData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvData.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvData.Location = new System.Drawing.Point(0, 90);
+            this.dgvData.Location = new System.Drawing.Point(0, 111);
+            this.dgvData.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvData.Name = "dgvData";
-            this.dgvData.Size = new System.Drawing.Size(800, 360);
+            this.dgvData.RowHeadersWidth = 51;
+            this.dgvData.Size = new System.Drawing.Size(1067, 443);
             this.dgvData.TabIndex = 1;
             this.dgvData.CellBeginEdit += new System.Windows.Forms.DataGridViewCellCancelEventHandler(this.dgvData_CellBeginEdit);
             this.dgvData.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvData_CellEndEdit);
@@ -112,11 +120,12 @@ namespace CLB_Bida.Views
             // 
             // frmTable
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.dgvData);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmTable";
             this.Text = "Bàn";
             this.Load += new System.EventHandler(this.frmTable_Load);
