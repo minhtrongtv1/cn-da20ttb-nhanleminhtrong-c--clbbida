@@ -33,20 +33,22 @@
             this.btnKetThuc = new System.Windows.Forms.Button();
             this.btnBatDau = new System.Windows.Forms.Button();
             this.dgvData = new System.Windows.Forms.DataGridView();
+            this.btnThongke = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnThongke);
             this.groupBox1.Controls.Add(this.btnRefresh);
             this.groupBox1.Controls.Add(this.btnKetThuc);
             this.groupBox1.Controls.Add(this.btnBatDau);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(1067, 84);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -54,7 +56,7 @@
             // btnRefresh
             // 
             this.btnRefresh.Location = new System.Drawing.Point(337, 32);
-            this.btnRefresh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRefresh.Margin = new System.Windows.Forms.Padding(4);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(100, 28);
             this.btnRefresh.TabIndex = 3;
@@ -65,7 +67,7 @@
             // btnKetThuc
             // 
             this.btnKetThuc.Location = new System.Drawing.Point(187, 32);
-            this.btnKetThuc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnKetThuc.Margin = new System.Windows.Forms.Padding(4);
             this.btnKetThuc.Name = "btnKetThuc";
             this.btnKetThuc.Size = new System.Drawing.Size(143, 28);
             this.btnKetThuc.TabIndex = 2;
@@ -76,7 +78,7 @@
             // btnBatDau
             // 
             this.btnBatDau.Location = new System.Drawing.Point(36, 32);
-            this.btnBatDau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBatDau.Margin = new System.Windows.Forms.Padding(4);
             this.btnBatDau.Name = "btnBatDau";
             this.btnBatDau.Size = new System.Drawing.Size(143, 28);
             this.btnBatDau.TabIndex = 0;
@@ -89,7 +91,7 @@
             this.dgvData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvData.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvData.Location = new System.Drawing.Point(0, 84);
-            this.dgvData.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvData.Margin = new System.Windows.Forms.Padding(4);
             this.dgvData.MultiSelect = false;
             this.dgvData.Name = "dgvData";
             this.dgvData.ReadOnly = true;
@@ -98,6 +100,16 @@
             this.dgvData.TabIndex = 1;
             this.dgvData.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvData_CellDoubleClick);
             // 
+            // btnThongke
+            // 
+            this.btnThongke.Location = new System.Drawing.Point(444, 32);
+            this.btnThongke.Name = "btnThongke";
+            this.btnThongke.Size = new System.Drawing.Size(105, 27);
+            this.btnThongke.TabIndex = 4;
+            this.btnThongke.Text = "Thống kê";
+            this.btnThongke.UseVisualStyleBackColor = true;
+            this.btnThongke.Click += new System.EventHandler(this.btnThongke_Click);
+            // 
             // frmbanbida
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -105,7 +117,7 @@
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.dgvData);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmbanbida";
             this.Text = "Bida";
             this.Load += new System.EventHandler(this.frmbanbida_Load);
@@ -122,5 +134,6 @@
         private System.Windows.Forms.DataGridView dgvData;
         private System.Windows.Forms.Button btnKetThuc;
         private System.Windows.Forms.Button btnRefresh;
+        private System.Windows.Forms.Button btnThongke;
     }
 }

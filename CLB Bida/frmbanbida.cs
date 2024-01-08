@@ -37,6 +37,7 @@ namespace CLB_Bida
         private void frmbanbida_Load(object sender, EventArgs e)
         {
             SetDataGridView();
+            
         }
         private void SetDataGridView()
         {
@@ -73,34 +74,44 @@ namespace CLB_Bida
                     bool ParseOk =  int.TryParse (row.Cells["InternalOrderNum"].Value.ToString(), out integerParsed);
                     if (ParseOk)
                     {
-                        OrderHeaderDto data = new OrderHeaderDto() { InternalOrderNum = integerParsed };
-                        if (services.EditOrderHeader(data))
+                        if (!services.Get(new CommonFilterDto { InternalOrderNum = integerParsed }).FirstOrDefault().EndDateTime.HasValue)
                         {
-                            tableServices.UpdateTableStatus((int)row.Cells["TableId"].Value, false);
-                            string totalHours = services.PriceCalculate(data.InternalOrderNum);
-                            MessageBox.Show( $@"Tổng thời gian chơi là : {totalHours} giờ", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            
-                            // Export 
-                            FolderBrowserDialog dg = new FolderBrowserDialog();
-                            if (dg.ShowDialog() == DialogResult.OK)
-                            {                                
-                                string fileName = dg.SelectedPath + @"\" + "Bill_" + row.Cells["TableName"].Value.ToString() + "_" + string.Format("{0:ddMMyyyyhhmmss}", DateTime.Now) + ".xlsx";
-                                try
+                            OrderHeaderDto data = new OrderHeaderDto() { InternalOrderNum = integerParsed };
+                            if (services.EditOrderHeader(data))
+                            {
+                                tableServices.UpdateTableStatus((int)row.Cells["TableId"].Value, false);
+                                string totalHours = services.PriceCalculate(data.InternalOrderNum);
+                                MessageBox.Show($@"Tổng thời gian chơi là : {totalHours} giờ", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                                // Export 
+                                FolderBrowserDialog dg = new FolderBrowserDialog();
+                                if (dg.ShowDialog() == DialogResult.OK)
                                 {
-                                    Export(integerParsed, fileName);                                    
+                                    string fileName = dg.SelectedPath + @"\" + "Bill_" + row.Cells["TableName"].Value.ToString() + "_" + string.Format("{0:ddMMyyyyhhmmss}", DateTime.Now) + ".xlsx";
+                                    try
+                                    {
+                                        Export(integerParsed, fileName);
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        MessageBox.Show(ex.Message);
+                                    }
+
                                 }
-                                catch (Exception ex)
-                                {
-                                    MessageBox.Show(ex.Message);
-                                }
-                                
+                                SetDataGridView();
+
+
                             }
-                            SetDataGridView();
+                            else
+                            {
+                                MessageBox.Show("Có lỗi trong quá trình kết thúc", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
                         }
                         else
                         {
-                            MessageBox.Show("Có lỗi trong quá trình kết thúc", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show("Bàn đã thanh toán!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
+                        
                     }
                     else
                     {
@@ -162,7 +173,7 @@ namespace CLB_Bida
                     decimal TongTien = hour * UnitPrice;
                     if (data.Count > 0)
                     {
-                        worksheet.InsertRow((startRow + 1), (data.Count() - 1), startRow);
+                       worksheet.InsertRow((startRow), (data.Count()-1), startRow);
 
                         foreach (var i in data)
                         {
@@ -190,7 +201,7 @@ namespace CLB_Bida
                         totalRowRange.Style.Font.Bold = true;
                         totalRowRange.Style.Font.UnderLine = true;
                         totalRowRange.Style.Font.Size = 14;
-                        // Set text to "Total"
+                        //Set text to "Total"
                         worksheet.Cells[$"A{lastRow}"].Value = "Tổng tiền";
 
                         // Sum the TotalPrice column (assuming TotalPrice is in column F)
@@ -206,6 +217,41 @@ namespace CLB_Bida
                 MessageBox.Show(ex.Message.ToString(), "Notification", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+        }
+
+        private void btnThongke_Click(object sender, EventArgs e)
+        {
+            CalculateAndShowTotalHoursForAllRows();
+        }
+        private void CalculateAndShowTotalHoursForAllRows()
+        {
+            double totalHoursValue = 0;
+
+            foreach (DataGridViewRow row in dgvData.Rows)
+            {
+                int integerParsed;
+                bool ParseOk = int.TryParse(row.Cells["InternalOrderNum"].Value.ToString(), out integerParsed);
+                if (ParseOk)
+                {
+                    OrderHeaderDto data = services.Get(new CommonFilterDto { InternalOrderNum = integerParsed }).FirstOrDefault();
+
+                    if (data != null)
+                    {
+                        DateTime startTime = data.StartDateTime ?? DateTime.MinValue; // Use DateTime.MinValue if StartDateTime is null
+                        DateTime endTime = data.EndDateTime ?? DateTime.Now; // Use current time if EndDateTime is null
+
+                        TimeSpan totalHours = endTime - startTime;
+                        totalHoursValue += totalHours.TotalHours;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Không tìm thấy dữ liệu cho một số đơn hàng", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return; // Return early if data is not found for any row
+                    }
+                }
+            }
+
+            MessageBox.Show($"Tổng số giờ từ đầu đến hiện tại cho tất cả các hàng: {totalHoursValue} giờ", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

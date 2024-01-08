@@ -63,24 +63,15 @@ namespace CLB_Bida.Views
         private void btnshow_Click(object sender, EventArgs e)
         {
             GetFilter();
-
-            // Retrieve data from the service
             var data = services.Get(filter);
-
-            // Bind the data to the DataGridView
             dgvData.DataSource = null;
             dgvData.DataSource = data;
-
-            // Set up the chart
             chart1.Series.Clear();
             chart1.ChartAreas.Clear();
             chart1.ChartAreas.Add("ChartArea1");
-
-            // Create a new series for the chart
             Series series = new Series("TotalPrice");
             series.ChartType = SeriesChartType.Column;
 
-            // Add data points to the series
             foreach (var item in data)
             {
                 var productName = item.ProductName;
@@ -89,10 +80,7 @@ namespace CLB_Bida.Views
                 series.Points.AddXY(productName, totalPrice);
             }
 
-            // Add the series to the chart
             chart1.Series.Add(series);
-
-            // Customize the appearance of the chart
             chart1.Titles.Clear();
             chart1.Titles.Add("Total Price by Product");
             chart1.ChartAreas["ChartArea1"].AxisX.Title = "Product";

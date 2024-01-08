@@ -59,7 +59,7 @@ namespace CLB_Bida.Views
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(1067, 123);
+            this.groupBox1.Size = new System.Drawing.Size(1646, 123);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -135,7 +135,7 @@ namespace CLB_Bida.Views
             this.dgvData.Margin = new System.Windows.Forms.Padding(4);
             this.dgvData.Name = "dgvData";
             this.dgvData.RowHeadersWidth = 51;
-            this.dgvData.Size = new System.Drawing.Size(572, 431);
+            this.dgvData.Size = new System.Drawing.Size(1084, 431);
             this.dgvData.TabIndex = 1;
             // 
             // chart1
@@ -144,7 +144,7 @@ namespace CLB_Bida.Views
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(570, 123);
+            this.chart1.Location = new System.Drawing.Point(1091, 137);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
@@ -158,7 +158,7 @@ namespace CLB_Bida.Views
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(1646, 580);
             this.Controls.Add(this.chart1);
             this.Controls.Add(this.dgvData);
             this.Controls.Add(this.groupBox1);
